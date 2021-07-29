@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('CICD App V2! with github hook event rule add')
+  res.send('CICD App V2! with github hook event rule add at 29 july')
 })
 
 app.get('/status', (req, res) => {
