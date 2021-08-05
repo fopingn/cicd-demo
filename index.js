@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('CICD Careveo POC from Vscode add at 29 july and test draining task')
+  res.send('CICD Careveo POC from Vscode add at 05 august')
 })
 
 app.get('/status', (req, res) => {
