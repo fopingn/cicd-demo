@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('CICD Careveo POC from Vscode add at 06 august - Test with ECR Source after deleting cicd clone')
+  res.send('CICD Careveo POC from Vscode add at 08 august - https://monadical.com/posts/set-up-ci-workflow-part-two.html')
 })
 
 app.get('/status', (req, res) => {
